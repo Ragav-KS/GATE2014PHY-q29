@@ -191,6 +191,7 @@ def start_animation():
 
 def cache_bg():
     global bgCache_rPr, bgCache_rV, bgCache_rt, bgCache_Prt
+
     bgCache_rPr = MyUI.canvas.copy_from_bbox(ax_rPr.bbox)
     bgCache_rV = MyUI.canvas.copy_from_bbox(ax_rV.bbox)
     bgCache_rt = MyUI.canvas.copy_from_bbox(ax_rt.bbox)
